@@ -24,5 +24,8 @@ class Geeks:
 mark = Geeks()
   
 mark.age = 10
-  
+mark.set_age(20)
+
 print(mark.age)
+
+polymorphisme

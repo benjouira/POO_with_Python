@@ -9,10 +9,12 @@ class Geek:
       
     # getter method
     def get_age(self):
+        print("getter method called")
         return self._age
       
     # setter method
     def set_age(self, x):
+        print("setter method called")
         self._age = x
   
 raj = Geek()
